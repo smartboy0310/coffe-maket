@@ -1,0 +1,121 @@
+.performance-mode__info
+{
+    position: relative;
+    z-index: 1;
+    width: 1045px;
+    height: 100%;
+    padding: 200px 85px;
+    padding-right: 150px;
+    color: #333D4B;
+}
+.performance-mode__heading {
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0;
+    color: #83888F;
+    
+}  
+
+.performance-mode__list {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    width: 1045px;
+    height: 453px;
+    margin: 0;
+    margin-bottom: 64px;
+    padding: 0;
+    list-style-type: none;
+}
+.performance-mode__list::before {
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    width: 760px;
+    height: 1px;
+    transform: translateY(-50%);
+    border: 2px solid #FDD6BA;
+    content: '';
+}
+.performance-mode__item {
+    position: relative;
+    z-index: 1;
+    width: 285px;
+    height: 355px;
+    padding-top: 208px;
+}
+.performance-mode__item + .performance-mode__item {
+    margin-left: 95px;
+}
+.performance-mode__item::before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 31px;
+    height: 31px;
+    background-color: #fff;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    content: '';
+}
+.performance-mode__item:nth-child(1)::after {
+    position: absolute;
+    z-index: 1;
+    top: 98px;
+    display: inline-block;
+    width: 90px;
+    height: 72px;
+    font-family: "Fraunces","Georgia", serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0px;
+    color:#FDD6BA;
+    content: '01';
+}
+.performance-mode__item:nth-child(2)::after {
+    position: absolute;
+    z-index: 1;
+    top: 98px;
+    width: 101px;
+    height: 72px;
+    font-family: "Fraunces","Georgia", serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0px;
+    color:#FDD6BA;
+    content: '02';
+}
+.performance-mode__item:nth-child(3)::after {
+    position: absolute;
+    z-index: 1;
+    top: 98px;
+    width: 98px;
+    height: 72px;
+    font-family: "Fraunces","Georgia", serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0px;
+    color:#FDD6BA;
+    content: '03';
+}
+.performance-mode__item__heading {
+    width: 255px;
+    margin: 0;
+    margin-bottom: 43px;
+    padding: 0;
+    font-family: "Fraunces","Georgia", serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.performance-mode__item__paragraph {
+    width: 285px;
+    margin: 0;
+    padding: 0;
+}

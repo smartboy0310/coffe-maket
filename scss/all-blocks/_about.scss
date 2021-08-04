@@ -1,0 +1,22 @@
+.about {
+   padding-bottom: 168px;
+}
+.about .container {
+   padding: 137px 85px;
+   height: 450px;
+   background-image: url(../images/about-bg.svg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+}
+.about__info{
+   width: 445px;
+   color: #FEFCF7;
+}
+.about__heading{
+   margin-bottom: 24px;
+}
+.about__paragraph {
+   margin: 0;
+   padding: 0;
+}

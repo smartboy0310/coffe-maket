@@ -1,0 +1,23 @@
+.quality {
+   padding-bottom: 168px;
+}
+.quality .container {
+   position: relative;
+   z-index: 1;
+   display: flex;
+   align-items: center;
+   height: 474px;
+   padding: 88px 85px;
+   background-color: #2C343E;
+   border-radius: 10px;
+}
+.quality__info {
+   width: 540px;
+   color: #FEFCF7;
+}
+.quality__img {
+   position: absolute;
+   z-index: 1;
+   top: -88px;
+   right: 85px;
+}
