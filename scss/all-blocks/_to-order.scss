@@ -1,0 +1,131 @@
+.to-order {
+   padding-top: 160px;
+   padding-bottom: 168px;
+}
+.to-order .container {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   padding: 0 85px;
+}
+.order-sequence {
+   margin-right: 125px;
+}
+.order-sequence__list {
+   width: 255px;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+.order-sequence__item + .order-sequence__item {
+   margin-top: 25px;   
+}
+.order-sequence__item + .order-sequence__item .order-sequence__line {
+   display: inline-block;
+   width: 255px;
+   height: 1px;
+   margin-bottom: 25px;
+   background-color: #83888F;
+   opacity: 25%;
+}
+.order-sequence__link {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   font-family: "Fraunces","Georgia", serif;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #333D4B;
+   opacity: 0.5;
+   
+}
+.order-sequence__link:hover {
+   opacity: 0.8;
+}
+.order-sequence__span {
+   margin-right: 25px;
+   color: #83888F;
+}
+.order-types__list {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+.order-types__item {
+   width: 730px;
+}
+
+.order-types__heading {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 56px;
+   color: #83888F;
+}
+
+.order-types__item:hover  .order_types__label {
+   display: inline-block;
+   transition: background-color 0.3s ease;
+}
+.order-types__item:hover  .arrow {
+   transform: rotate(180deg);
+   transition: background-color 0.3s ease;
+}
+
+
+.check-bar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.order_types__label {
+   display: none;
+   width: 227px;
+   height: 250px;
+   margin: 0;
+   margin-bottom: 88px;
+}
+.order-types__input:checked + .order-types__info {
+   background-color: #0E8784;
+}
+.order-types__info {
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   padding: 32px 28px;
+   background-color: #F4F1EB;
+   border-radius: 8px;
+}
+.order-types__info:hover {
+   background-color: #FDD6BA;
+}
+.order-types__form__heading {
+   display: inline-block;
+   margin-bottom: 24px;
+   color: #333D4B;
+}
+.order-types__paragraph {
+   display: inline-block;
+   width: 172px;
+   color: #333D4B;
+   opacity: 0.7;
+}
+.form__submit-btn {
+	width: 217px;
+		display: block;
+      margin-left: auto;
+		padding: 15px;
+		text-align: center;
+		font-family: "Fraunces","Georgia", serif;
+		font-weight: 900;
+		font-size: 18px;
+		line-height: 25px;
+		color: #fefcf7;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		background: #0e8784;
+		border-radius: 6px;
+		transition: background-color 0.2s ease;
+}

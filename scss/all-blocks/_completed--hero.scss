@@ -1,0 +1,22 @@
+.completed--hero {
+   padding-bottom: 168px;
+}
+.completed--hero .container{
+   padding: 115px 85px;
+   background-image: url('../images/completed-bg.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+}
+.completed--hero__info {
+   width: 485px;
+}
+.completed--mode .container {
+   background-color: #2C343E;
+   border-radius: 10px;
+}
+.completed--mode__info {
+    padding: 100px 85px;
+    padding-right: 150px;
+    color: #FEFCF7;
+}

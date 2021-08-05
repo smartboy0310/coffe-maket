@@ -5,9 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Homework</title>
-   <link rel="stylesheet" href="./css/normalizetion.css">
-   <link rel="stylesheet" href="./css/min.main.css">
-   <link rel="stylesheet" href="./css/main.css">
+   <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
    
@@ -26,13 +24,13 @@
          <nav class="nav">
             <ul class="nav__list">
                <li class="nav__item">
-                  <a class="nav__link nav__link--active" href="#">home</a>
+                  <a class="nav__link " href="index.html">home</a>
                </li>
                <li class="nav__item">
                   <a class="nav__link" href="abuot.html">about us</a>
                </li>
                <li class="nav__item">
-                  <a class="nav__link" href="#">Create your plan</a>
+                  <a class="nav__link nav__link--active" href="completed.html">Create your plan</a>
                </li>
             </ul>
          </nav>
@@ -42,8 +40,8 @@
    <main class="main">
       <section class=" hero completed--hero">
          <div class="container">
-            <div class="hero__info">
-               <h2 class="hero__heading">
+            <div class="hero__info completed--hero__info">
+               <h2 class="hero__heading section-heading">
                   Create a plan
                </h2>                    
                <p class="hero__paragraph completed--hero__paragraph">
@@ -66,7 +64,7 @@
                </h2>
                <ul class="performance-mode__list">
                   <li class="performance-mode__item">
-                     <h3 class="performance-mode__item__heading">
+                     <h3 class="performance-mode__item__heading item-heading">
                         Pick your
                         coffee
                      </h3>
@@ -77,7 +75,7 @@
                      </p>
                   </li>
                   <li class="performance-mode__item">
-                     <h3 class="performance-mode__item__heading">
+                     <h3 class="performance-mode__item__heading item-heading">
                         Choose the frequency
                      </h3>
                      <p class="performance-mode__item__paragraph">
@@ -86,7 +84,7 @@
                      </p>
                   </li>
                   <li class="performance-mode__item">
-                     <h3 class="performance-mode__item__heading">
+                     <h3 class="performance-mode__item__heading item-heading">
                         Receive and enjoy!
                      </h3>
                      <p class="performance-mode__item__paragraph">
@@ -104,83 +102,263 @@
             <div class="order-sequence">
                <ul class="order-sequence__list">
                   <li class="order-sequence__item">
-                     <h3 class="order-sequebce__heading item-heading">
-                        01  Preferences
-                     </h3>
+                     <span class="order-sequence__line"></span>
+                     <a class="order-sequence__link item-heading" href="">
+                        <span class="order-sequence__span">01</span>  Preferences
+                     </a>
                   </li>
                   <li class="order-sequence__item">
-                     <h3 class="order-sequebce__heading item-heading">
-                        02  Bean Type
-                     </h3>
+                     <span class="order-sequence__line"></span>
+                     <a class="order-sequence__link item-heading" href="#">
+                        <span class="order-sequence__span">02</span>  Bean Type
+                     </a>
                   </li>
                   <li class="order-sequence__item">
-                     <h3 class="order-sequebce__heading item-heading">
-                        03  Quantity
-                     </h3>
+                     <span class="order-sequence__line"></span>
+                     <a class="order-sequence__link item-heading" href="#">
+                        <span class="order-sequence__span">03</span>  Quantity
+                     </a>
                   </li>
                   <li class="order-sequence__item">
-                     <h3 class="order-sequebce__heading item-heading">
-                        04  Grind Option
-                     </h3>
+                     <span class="order-sequence__line"></span>
+                     <a class="order-sequence__link item-heading" href="#">
+                        <span class="order-sequence__span">04</span>  Grind Option
+                     </a>
                   </li>
                   <li class="order-sequence__item">
-                     <h3 class="order-sequebce__heading item-heading">
-                        05  Deliveries
-                     </h3>
+                     <span class="order-sequence__line"></span>
+                     <a class="order-sequence__link item-heading" href="#">
+                        <span class="order-sequence__span">05</span>  Deliveries
+                     </a>
                   </li>
                </ul>
             </div>
             <div class="order-types">
-               <h2 class="order-types__heading section-heading">
-                  How do you drink your coffee?
-               </h2>
-               <ul class="order-types__list">
-                  <li class="order-types__item">
-                     <form class="order-types__form" action="https://echo.htmlacademy.ru" method="post">
-                        <label class="order_types__label">
-                           <input  class="order-types__input" type="checkbox" name="order-types">
-                           <div class="order-types__info">
-                              <h3 class="order-types__form__heading">
-                                 Capsule
-                              </h3>
-                              <p class="order-types__paragraph">
-                                 Compatible with Nespresso systems and similar brewers
-                              </p>
-                           </div>
-                        </label>
-                     </form>                   
-                  </li>
-                  <li class="order-types__item">
-                     <form class="order-types__form" action="https://echo.htmlacademy.ru" method="post">
-                        <label class="order_types__label">
-                           <input  class="order-types__input" type="checkbox" name="order-types">
-                           <div class="order-types__info">
-                              <h3 class="order-types__form__heading">
-                                 Capsule
-                              </h3>
-                              <p class="order-types__paragraph">
-                                 Compatible with Nespresso systems and similar brewers
-                              </p>
-                           </div>
-                        </label>
-                     </form>                   
-                  </li>
-                  <li class="order-types__item">
-                     <form class="order-types__form" action="https://echo.htmlacademy.ru" method="post">
-                        <label class="order_types__label">
-                           <input  class="order-types__input" type="checkbox" name="order-types">
-                           <div class="order-types__info">
-                              <h3 class="order-types__form__heading">
-                                 Capsule
-                              </h3>
-                              <p class="order-types__paragraph">
-                                 Compatible with Nespresso systems and similar brewers
-                              </p>
-                           </div>
-                        </label>
-                     </form>                   
-                  </li>
-               </ul>
+               <form class="order-types__form" action="https://echo.htmlacademy.ru" method="post">
+                  <ul class="order-types__list">
+                     <li class="order-types__item" id="order-types__one">
+                        <h2 class="order-types__heading section-heading">
+                           How do you drink your coffee?
+                           <img class="arrow"
+                           src="./images/arrow.png"
+                           alt="arrow icon"
+                           width="18" height="12">
+                        </h2>
+                        <div class="check-bar">
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label> 
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Filter
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    For pour over or drip methods like Aeropress, Chemex, and V60
+                                 </span>
+                              </span>
+                           </label>      
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Espresso
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Dense and finely ground beans for an intense, flavorful experience
+                                 </span>
+                              </span>
+                           </label>   
+                        </div>                
+                     </li>
+                     <li class="order-types__item" id="order-types__two">
+                        <h2 class="order-types__heading section-heading">
+                           How do you drink your coffee?
+                           <img class="arrow"
+                           src="./images/arrow.png"
+                           alt="arrow icon"
+                           width="18" height="12">
+                        </h2>
+                        <div class="check-bar">
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label> 
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label>      
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label>   
+                        </div>                     
+                     </li>
+                     <li class="order-types__item" id="order-types__three">
+                        <h2 class="order-types__heading section-heading">
+                           How do you drink your coffee?
+                           <img class="arrow"
+                           src="./images/arrow.png"
+                           alt="arrow icon"
+                           width="18" height="12">
+                        </h2>
+                        <div class="check-bar">
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label> 
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label>      
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading  item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label>   
+                        </div>                  
+                     </li>
+                     <li class="order-types__item" id="order-types__four">
+                        <h2 class="order-types__heading section-heading">
+                           How do you drink your coffee?
+                           <img class="arrow"
+                           src="./images/arrow.png"
+                           alt="arrow icon"
+                           width="18" height="12">
+                        </h2>
+                        <div class="check-bar">
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label> 
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label>      
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label>   
+                        </div>               
+                     </li>
+                     <li class="order-types__item" id="order-types__five">
+                        <h2 class="order-types__heading section-heading">
+                           How do you drink your coffee?
+                           <img class="arrow"
+                           src="./images/arrow.png"
+                           alt="arrow icon"
+                           width="18" height="12">
+                        </h2>
+                        <div class="check-bar">
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label> 
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label>      
+                           <label class="order_types__label">
+                              <input  class="order-types__input visually-hidden" type="checkbox" name="order-types">
+                              <span class="order-types__info">
+                                 <span class="order-types__form__heading item-heading">
+                                    Capsule
+                                 </span>
+                                 <span class="order-types__paragraph">
+                                    Compatible with Nespresso systems and similar brewers
+                                 </span>
+                              </span>
+                           </label>   
+                        </div>                
+                     </li>
+                  </ul>
+                  <button class="form__submit-btn section-link" type="submit">Create my plan!</button>
+               </form>           
             </div>
          </div>
       </section>
