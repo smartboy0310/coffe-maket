@@ -835,19 +835,6 @@ img {
   color: #83888F;
 }
 
-.order-types__item:hover .order_types__label {
-  display: inline-block;
-  -webkit-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease;
-}
-
-.order-types__item:hover .arrow {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  -webkit-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease;
-}
-
 .check-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -861,7 +848,7 @@ img {
 }
 
 .order_types__label {
-  display: none;
+  display: inline-block;
   width: 227px;
   height: 250px;
   margin: 0;
@@ -896,6 +883,30 @@ img {
   width: 172px;
   color: #333D4B;
   opacity: 0.7;
+}
+
+.order-summary {
+  width: 730px;
+  margin-bottom: 40px;
+  padding: 32px 64px;
+  background-color: #2C343E;
+  color: #fff;
+}
+
+.order-summary__heading {
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.order-blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+}
+
+.span-color {
+  color: #0E8784;
 }
 
 .form__submit-btn {
