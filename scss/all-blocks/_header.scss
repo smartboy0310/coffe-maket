@@ -4,6 +4,7 @@
    justify-content: space-between;
    padding: 44px 20px;
 }
+
 .nav__list {
    display: flex;
    align-items: center;
@@ -30,4 +31,26 @@
 
 .nav__link--active {
    color: #333d4b;
+}
+.header__hamburger-btn {
+   display: none;
+   margin: 0;
+   padding: 0;
+   background-color: #fff;
+   color: #333;
+   border: none;
+}
+@media only screen and (max-width: 768px) {
+   .header .container {
+      padding-top: 40px;
+      padding-bottom: 54px;
+   }
+}
+@media only screen and (max-width: 660px) {
+   .nav {
+      display: none;
+   }
+   .header__hamburger-btn {
+      display: block;
+   }
 }
