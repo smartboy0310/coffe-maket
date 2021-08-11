@@ -135,6 +135,12 @@ img {
   padding: 44px 20px;
 }
 
+.header__logo {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -922,7 +928,7 @@ img {
             justify-content: space-between;
     margin-bottom: 65px;
   }
-  .header__logo {
+  .footer__logo {
     margin-bottom: 34px;
   }
 }
