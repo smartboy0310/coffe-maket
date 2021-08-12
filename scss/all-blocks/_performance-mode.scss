@@ -173,6 +173,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .performance-mode__item + .performance-mode__item {
+        margin-left: 0;
+    }
     .performance-mode__item__heading {
         text-align: center;
     }
