@@ -11,6 +11,7 @@
 .footer__left {
    display: flex;
    align-items: center;
+   height: 100%;
 }
 .footer .nav {
    margin-left: 103px;
@@ -34,14 +35,34 @@
    .footer .container {
       flex-direction: column;
       align-items: center;
+      justify-content: center;
    }
    .footer__left {
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       margin-bottom: 65px;
    }
-   .footer__logo {
+   .footer-img {
       margin-bottom: 34px;
+   }
+   .footer .nav {
+      margin-left: 0px;
+   }
+}
+@media only screen and (max-width: 661px)
+{
+   .footer__left{
+      margin-bottom: 48px;
+   }
+   .nav-footer {
+      display: block;
+   }
+   .nav__list-footer {
+      flex-direction: column;
+   }
+   .nav__item-footer + .nav__item-footer {
+      margin-top: 24px;
+      margin-left: 0;
    }
 }

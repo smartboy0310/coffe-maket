@@ -1,9 +1,8 @@
-.choice{
-   padding-bottom: 146px;
-}
-.choice .container {
+.choice 
+ {
    position: relative;
    z-index: 1;
+   padding-bottom: 150px;
 }
 .choice__info {
    position: relative;
@@ -95,6 +94,9 @@
 }
 
 @media only screen and (max-width: 1149px) {
+   .choice {
+      padding-bottom: 305px;
+   }
    .choice__info {
       padding: 56px 70px;
       padding-bottom: 368px;
@@ -160,11 +162,15 @@
 }
 @media only screen and (max-width: 612px) {
    .choice {
-      padding-bottom: 400px;
+      padding-bottom: 610px;
    }
    .choice__info {
       padding: 64px 24px;
       padding-bottom: 670px;
+   }
+   .choice__heading {
+      font-size: 28px;
+      line-height: 28px;
    }
    .choice__list {
       flex-direction: column;
