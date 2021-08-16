@@ -1,5 +1,5 @@
 .choice 
- {
+{
    position: relative;
    z-index: 1;
    padding-bottom: 150px;
@@ -119,7 +119,7 @@
    .choice__item {
       width: 100%;
       max-width: 573px;
-}
+   }
    .choice__item + .choice__item {
       margin-left: 0;
       margin-top: 24px;
@@ -176,6 +176,7 @@
    {
       width: 100%;
       max-width: 279px;
+      margin: 0 auto;
    }
    .choice__list {
       flex-direction: column;
@@ -188,7 +189,7 @@
    .choice__item {
       width: 100%;
       max-width: 279px;
-}
+   }
    .choice__item + .choice__item {
       margin-left: 0;
       margin-top: 24px;

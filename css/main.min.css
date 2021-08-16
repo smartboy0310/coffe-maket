@@ -652,6 +652,7 @@ img {
   .choice__paragraph {
     width: 100%;
     max-width: 279px;
+    margin: 0 auto;
   }
   .choice__list {
     -webkit-box-orient: vertical;
