@@ -172,6 +172,11 @@
       font-size: 28px;
       line-height: 28px;
    }
+   .choice__paragraph
+   {
+      width: 100%;
+      max-width: 279px;
+   }
    .choice__list {
       flex-direction: column;
       position: absolute;
@@ -214,10 +219,11 @@
    }
    .choise__item__link {
       padding: 51px 33px;
-      padding-top: 180px;
+      padding-top: 200px;
    }
    .chioce__item__paragraph {
-      
+      width: 100%;
+      max-width: 212px;
       font-size: 15px;
       line-height: 25px;
       
